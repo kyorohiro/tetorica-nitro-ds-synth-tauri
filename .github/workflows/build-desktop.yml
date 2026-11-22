@@ -32,8 +32,6 @@ jobs:
 
   build:
     needs: verify
-    permissions:
-      contents: write
     strategy:
       fail-fast: false
       matrix:
@@ -85,23 +83,11 @@ jobs:
       - run: npm ci
       - name: Verify committed Synth assets
         run: npm run import:release -- --check
+      # The parent release script verifies artifacts and attaches signed Mac builds to the draft.
       - name: Build desktop app
-        if: ${{ !startsWith(github.ref, 'refs/tags/v') }}
         uses: tauri-apps/tauri-action@v0
         with:
           args: --target ${{ matrix.target }} --bundles ${{ matrix.bundles }} -- --locked
-      - name: Build and attach to draft release
-        if: startsWith(github.ref, 'refs/tags/v')
-        uses: tauri-apps/tauri-action@v0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          args: --target ${{ matrix.target }} --bundles ${{ matrix.bundles }} -- --locked
-          tagName: ${{ github.ref_name }}
-          releaseName: Tetorica Nitro DS Synth ${{ github.ref_name }}
-          releaseBody: Desktop builds of Tetorica Nitro DS Synth with editable Web sources and the SkyEmu rebuild kit. Hosted builds have no Developer ID or Authenticode signatures.
-          releaseDraft: true
-          prerelease: false
       - name: Upload installers
         uses: actions/upload-artifact@v4
         with:
