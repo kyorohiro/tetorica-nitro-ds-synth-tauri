@@ -1,9 +1,9 @@
 {
-  "archive": "tetorica_nitro_ds_synth_0.0.1-tauri-final_itch.zip",
+  "archive": "tetorica_nitro_ds_synth_dev_itch.zip",
   "files": {
     "LICENSE": "2d2e9213c170a9866c616fa85b6da993a6724e10befc61f468ed9bfb84c4691c",
     "README.md": "bd3af97fcdf987317382718f4dfb600c2036585e44865fe38d42628780b101ca",
-    "index.html": "e5e2a573ad5cf10ce8cf0a30fcf17557b0e4219c37178cd4d1f1534789b0a4fa",
+    "index.html": "8785684bb968578b7d15e7e4dfd94cb3db16dbf5f9bcde73f780910dc76743b8",
     "js/adpcm_b_sample.js": "6cd2346c09713427384f14c152c03b2334928f10e618184a521790a7e9815f93",
     "js/megasynth-fm-presets.js": "daf3c42d3d6b1777d5729073eed9edf4d96a78d55e22fedfad394137d41bb06c",
     "js/native_fx.js": "42cf0829acbc3cf779a5fc2005a6c1ac1ecfee92075f468da968c59b0fe4e27f",
@@ -63,14 +63,14 @@
     "synth-nitro-ds/2sf_source.js": "27c732e5e0934c4fbc35f789e079535175ffea4baf75b3372448300af77a96d4",
     "synth-nitro-ds/generated/skyemu-2sf-notices.txt": "8eda71f5dad101905911ce97e506da83f8231db33c93a0462bd385f96e624db9",
     "synth-nitro-ds/generated/skyemu-2sf.wasm": "81786b61246dcdb3890867f2feb22587cc01f203ff50371f0db66b847ce2531e",
-    "synth-nitro-ds/index.html": "9197f5cbb80f2f51c12e8f1abaae744a528506700f4af2b5e62fc1c2d26d1331",
-    "synth-nitro-ds/nds-audio.js": "1d596317085128c97ee497bc98b564f141be542ba2899250d135b4595f9694e7",
+    "synth-nitro-ds/index.html": "aa54fa11649f9f4cbf010449828a8acfe6ef4a15e0bc2f064890db20eec6aac2",
+    "synth-nitro-ds/nds-audio.js": "f3a77235603e5521572cb9a45a2293789b821a0496ca4c032618e2c3b87834bd",
     "synth-nitro-ds/nds-channel-picker.js": "2bf75ce0aaef774b1a3cefab2d96e2ed3b32fa171c73dd9f98755a9a1fb0d32d",
     "synth-nitro-ds/nds-code-declarations.js": "29badd28de556587692c4519eb29c45277636caccaaea8512691489ed4800ddf",
     "synth-nitro-ds/nds-code.js": "dca3a75283c3b2c847ab1399bdc154f1de67bc2a07c838e47fef64e442e485bf",
-    "synth-nitro-ds/nds-core.js": "da1ddc62355c0e813f6e48a7f2d5d3b655f7fff6ccd092e55959198a57f1c644",
+    "synth-nitro-ds/nds-core.js": "8ac9ce0b9523d4564ea9bf08c1febc58a03a3f8ef8604dee9b6f895e99a53c9a",
     "synth-nitro-ds/nds-files.js": "0816beeae12ecb46079fd07e1ccc57f2ee8ce267accf0a4670836db03554875b",
-    "synth-nitro-ds/nds-keyboard.js": "0e880dda4cb5920f43fb4a55e95d4cb7d6c40ac868b5d2b5ab7460fe884459f9",
+    "synth-nitro-ds/nds-keyboard.js": "b15a484561df0769a8f299b2d68652eb87b0e81f64937438855f7f4068be8cb1",
     "synth-nitro-ds/nds-preset.js": "f5fc29897768432b57862cb03ba02c443ab10a431c95ce3a13129cea092d34d3",
     "synth-nitro-ds/nds-project.js": "a9f7a38e1e71d1682b37407fbd63c9f69dd442282b228008093d933f97f03271",
     "synth-nitro-ds/nds-sample-editor.js": "3f9d74bd1842fec395529ed248683195b88697bbb93400c42263d9255acecc4f",
@@ -79,9 +79,9 @@
     "synth-nitro-ds/nds-skyemu-wasm.js": "98ae030837d9d9a52e372fce56a5c5a999434dfc9a47d76eec42c5797bf2a207",
     "synth-nitro-ds/nds-sound-capture.js": "78ce8df3f072bfc939a5100da110403018395ea387e642af955f7667a87da34b",
     "synth-nitro-ds/nds-synth-api.js": "3f4dddd95c5c386a5faa73fa0d3db43bf9edcd60dcd8eef50a461b724ba7ec0c",
-    "synth-nitro-ds/nds-worklet.js": "411ccab3573d0aa8e1b50e1591e2f11146a43bde29ff953bc53c8dfe79c64116",
-    "synth-nitro-ds/synth.css": "1146f5aa9d041e065664517252869846fec17678745ac8329d1084b66c35c367",
-    "synth-nitro-ds/synth.js": "46d695eee09c4ce2d09aa911083460e05ea037827521cbbc536ef9aba666ef28",
+    "synth-nitro-ds/nds-worklet.js": "fb70695a35591f3defcf021164faf8a8c07fce8832d2a4cf2909ff35791b4276",
+    "synth-nitro-ds/synth.css": "45a38a9171039eb5f49cb7cce0c9151ad0e947b3152ffd8c0a2a4eada1da2b48",
+    "synth-nitro-ds/synth.js": "7066294fa8499ee2c6234ba1e3f1950edfdee228feff3c2dbc263de26cc530d1",
     "synth-scsp/ssf_source.js": "9101d74902d03f79570cd85991a3df354fa91ee5b9749f0c518faaf03a75fa13",
     "synth-spu/file_context_menu.js": "246c5bc3108826c68c85c3539c45bafa939e1ef99d69dd84cf81b416e40786c3",
     "synth-spu/spu_synth_visualizer.js": "0e4cba8d283d728579e592b28a87f008165b5d5d00d1cb4956e90b06f84d6b47",
@@ -94,6 +94,6 @@
     "synth/synth_project_store.js": "6ec7a4b2f234285636a406170359810be96aba58de18e3f7450ac19f3eba1636",
     "tetorica_nitro_ds_synth.webp": "970a320aa24216af6772cee0faeced9d4b62f8b7367658a4740efba97907d232"
   },
-  "sha256": "04a8ca123b64e069d45397d33b78e0bfcabd6c6704dafc883c6d1ecbda73288d",
-  "version": "sha256-04a8ca123b64"
+  "sha256": "04432c6edd7976b3479b78c15be0d5f684666757da97fa4e9c35111d9909dbc0",
+  "version": "sha256-04432c6edd79"
 }

@@ -1,6 +1,6 @@
 {
   "name": "tetorica-nitro-ds-synth-tauri",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "description": "Tetorica Nitro DS Synth desktop app with editable Web sources",
@@ -19,4 +19,3 @@
     "@tauri-apps/cli": "2.11.5"
   }
 }
-
