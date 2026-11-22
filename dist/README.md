@@ -6,6 +6,7 @@ For itch.io, upload the ZIP as an HTML playable project.
 Try the Keyboard or the JavaScript examples in Files. Use Menu → Import to open a
 2SF folder or select song and library files. 2SF playback supports ROM-boot sets
 with standard timing. Supply your own songs and libraries.
+Use `liveFx()` in Code for software effects on the Synth output.
 
 The JavaScript and CSS are copied from the authored files. Edit and reload
 the page to try your changes. Monaco can load from its CDN, with a local text
@@ -19,3 +20,4 @@ Install Emscripten, then run from the unpacked ZIP:
 
 The required SkyEmu source, Tetorica adapter and build recipe are in sources/2sf.
 See LICENSE and sources/2sf/skyemu-2sf-notices.txt for attribution.
+The software effect source and rebuild instructions are in sources/code-effects.
